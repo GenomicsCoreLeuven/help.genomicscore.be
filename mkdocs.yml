@@ -1,0 +1,40 @@
+site_name: Genomics Core
+theme:
+  name: material
+  logo: assets/corporate/favicon.png
+  favicon: assets/corporate/favicon.png
+  palette:
+    primary: white
+    accent: light blue
+  features:
+    - navigation.sections
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+plugins:
+  - search
+
+# footer:
+copyright: Copyright &copy; 2015 - 2021 Genomics Core Leuven
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/GC_Leuven
+      name: GC on Twitter
+
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/genomics-core-leuven/
+      name: GC on LinkedIn
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/GenomicsCoreLeuven
+      name: GC on GitHub
+
+
+  # analytics:
+  #   provider: google
+  #   property: G-XXXXXXXXXX
+
+
+extra_css:
+  - stylesheets/extra.css
