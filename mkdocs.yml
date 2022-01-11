@@ -15,7 +15,7 @@ plugins:
   - search
 
 # footer:
-copyright: Copyright &copy; 2015 - 2021 Genomics Core Leuven
+copyright: Copyright &copy; 2015 - 2022 Genomics Core Leuven
 extra:
   social:
     - icon: fontawesome/brands/twitter
