@@ -8,5 +8,5 @@ Given a download link, one can use the tool [curl](https://en.wikipedia.org/wiki
 curl -I -L '<DOANLOAD_LINK>'
 
 # Downloadling:
-curl -o some_file.zip '<DOANLOAD_LINK>' 
+curl -o /My/Locaction/some_file.zip '<DOANLOAD_LINK>' 
 ```
