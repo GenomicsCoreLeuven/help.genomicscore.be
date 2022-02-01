@@ -5,8 +5,8 @@ Given a download link, one can use the tool [curl](https://en.wikipedia.org/wiki
 
 ```sh
 # Getting information about the size and the experiation date:
-curl -I -L '<DOANLOAD_LINK>'
+curl -I -L '<DOWNLOAD_LINK>'
 
 # Downloadling:
-curl -o /My/Locaction/some_file.zip '<DOANLOAD_LINK>' 
+curl -o /My/Locaction/some_file.zip '<DOWNLOAD_LINK>' 
 ```
