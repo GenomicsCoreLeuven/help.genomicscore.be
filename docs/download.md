@@ -8,7 +8,7 @@ Given a download link, one can use the tool [curl](https://en.wikipedia.org/wiki
 curl -I -L '<DOWNLOAD_LINK>'
 ```
 
-**Downloadling**
+**Downloading**
 ```sh
 curl -o /My/Locaction/some_file.zip '<DOWNLOAD_LINK>' 
 ```
