@@ -10,5 +10,10 @@ curl -I -L '<DOWNLOAD_LINK>'
 
 **Downloading**
 ```sh
-curl -o /My/Locaction/some_file.zip '<DOWNLOAD_LINK>' 
+curl -o /My/Locaction/some_file.tar.gz '<DOWNLOAD_LINK>'
+```
+
+**Extracting**
+```sh
+tar -xzvf /My/Locaction/some_file.tar.gz
 ```
