@@ -3,7 +3,7 @@
 Given a download link, one can use the tool [curl](https://en.wikipedia.org/wiki/CURL) to download a file through the command line interface:
 
 
-**Getting information about the size and the expiration date:**
+**Getting information:**
 ```sh
 curl -I -L '<DOWNLOAD_LINK>'
 ```
