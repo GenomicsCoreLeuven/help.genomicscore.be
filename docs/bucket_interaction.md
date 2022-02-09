@@ -8,6 +8,8 @@
 
 ### Do more with an object
 
+> NOTE: to do more that downloading an object requires elevated permissions, Storage Object Viewer+Creator or Storage Object Admin
+
 ![do_more](/docs/assets/imgs/bucket_interaction_imgs/do_more.png)
 
 ### Copy / Move an object
@@ -17,6 +19,10 @@
 ### Moving an object in detail
 
 ![move_detail](/docs/assets/imgs/bucket_interaction_imgs/move_detail.png)
+
+### Granting / Revoking access
+
+This is only allowed by elligible UZ Leuven employees cfr. [GC-MT113-PR](https://wiki.uz.kuleuven.ac.be/x/9wx9Fg)
 
 ## Terminal / Command Line Interface (CLI)
 
