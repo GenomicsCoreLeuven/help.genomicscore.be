@@ -4,37 +4,39 @@
 
 ### Downloading
 
-![download](/docs/assets/imgs/bucket_interaction_imgs/download.png)
+![download](/assets/imgs/bucket_interaction_imgs/download.png)
 
 ### Do more with an object
 
 !!! NOTE
-    
     To do more than downloading an object requires elevated permissions; Storage Object Viewer+Creator or Storage Object Admin
 
-![do_more](/docs/assets/imgs/bucket_interaction_imgs/do_more.png)
+![do_more](/assets/imgs/bucket_interaction_imgs/do_more.png)
 
 ### Copy / Move an object
 
-![copy_move](/docs/assets/imgs/bucket_interaction_imgs/copy_move.png)
+![copy_move](/assets/imgs/bucket_interaction_imgs/copy_move.png)
 
 ### Moving an object in detail
 
-![move_detail](/docs/assets/imgs/bucket_interaction_imgs/move_detail.png)
+![move_detail](/assets/imgs/bucket_interaction_imgs/move_detail.png)
 
 ### Granting / Revoking access
 
-This is only allowed by elligible UZ Leuven employees cfr. [GC-MT113-PR](https://wiki.uz.kuleuven.ac.be/x/9wx9Fg)
+!!! info
+    This is only allowed by elligible UZ Leuven employees cfr. [GC-MT113-PR](https://wiki.uz.kuleuven.ac.be/x/9wx9Fg)
 
 ## Terminal / Command Line Interface (CLI)
 
 ### Prerequisites
 
-If you want to access the data through the Command Line Interface (CLI) please install gsutil on your device through the [Google Cloud SDK](https://cloud.google.com/sdk/docs/#mac). More info on the gsutil usage can be found [here](https://cloud.google.com/storage/docs/gsutil).
+If you want to access the data through the Command Line Interface (CLI) please install gsutil on your device through the [Google Cloud SDK](https://cloud.google.com/sdk/#mac). More info on the gsutil usage can be found [here](https://cloud.google.com/storage/gsutil).
 
 ### Summary of typical commands
 
-_Replace the values in the curly braces {}_
+!!! info
+    Replace the values in the curly braces {}
+
 
 #### Listing files
 
