@@ -8,7 +8,9 @@
 
 ### Do more with an object
 
-> NOTE: to do more that downloading an object requires elevated permissions, Storage Object Viewer+Creator or Storage Object Admin
+!!! NOTE
+    
+    To do more than downloading an object requires elevated permissions; Storage Object Viewer+Creator or Storage Object Admin
 
 ![do_more](/docs/assets/imgs/bucket_interaction_imgs/do_more.png)
 
@@ -34,34 +36,66 @@ If you want to access the data through the Command Line Interface (CLI) please i
 
 _Replace the values in the curly braces {}_
 
+#### Listing files
+
 ```sh
 # List
 gsutil ls gs://{BUCKET_NAME}
+```
 
-# List fastq files in a certain folder
+```sh
+# Example: List fastq files in a certain folder
 gsutil ls gs://{BUCKET_NAME}/{FOLDER}/*.fastq.gz
+```
 
+#### Copy/Move files
+
+```sh
 # Copy
 gsutil cp {src}/ {dst}/
+```
 
+```sh
 # Example: from bucket to local machine
 gsutil cp gs://{BUCKET_NAME}/{FILE_NAME} {/MY_DEVICE/FILE_DESTINATION/}
+```
 
+```sh
+# Example: copy a set of csv files
+gsutil cp gs://{BUCKET_NAME}/{FOLDER}/*.csv {/MY_DEVICE/FILE_DESTINATION/}
+```
+
+```sh
 # Example: from your local machine to the bucket
 gsutil cp {/MY_DEVICE/FILE_LOCATION/MY_FILE} gs://{BUCKET_NAME}/{OPTIONAL_BUCKET_FOLDER}
+```
 
-# Move similar to Copy
+```
+# Move; similar to Copy
 gsutil mv {src}/ {dst}/
+```
 
-# Rsync
+#### Syncing
+
+One can use gsutil rsync to match source and destination (unidirectional)
+
+```sh
 gsutil -m rsync -r src/ dst/
+```
 
+#### Other
+
+```sh
 # Delete
 gsutil rm gs://{BUCKET_NAME}/{FILE_NAME}
+```
 
+```sh
 # Bucket size
 gsutil du -sh gs://{BUCKET_NAME}
+```
 
+```sh
 # File size
 gsutil du -sh gs://{BUCKET_NAME}/{FILE_NAME}
 ```
