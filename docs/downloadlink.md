@@ -4,6 +4,10 @@ Requested datasets can be quite `large`, depending on the type of experiment.
 
 Given a download link, one can use the tool [curl](https://en.wikipedia.org/wiki/CURL) to download a file through the command line interface instead.
 
+!!! warning "Warning"
+    Always proceed with caution before executing commandlets
+
+
 === "macOS"
 
     ```sh
@@ -43,23 +47,18 @@ Given a download link, one can use the tool [curl](https://en.wikipedia.org/wiki
 
 === "Windows"
 
-    todo
-    ```sh
-    # Update dependencies
-    sudo apt update
+    If not on your machine, please install through the [official curl website](https://curl.se/windows/)
 
-    # Install curl
-    sudo apt -y install curl
-
-    # Install zip and unzip
-    sudo apt install zip unzip
+    ```PowerShell
+    # Verify
+    Get-Command curl.exe
 
     # Downloadling
-    curl -o /My/Locaction/some_file.zip '{DOWNLOAD_LINK}'
+    curl.exe -o C:\My\Locaction\some_file.zip '{DOWNLOAD_LINK}'
 
     # Verify MD5 hash to ensure no corruption occured
-    md5sum /My/Locaction/some_file.zip
+    Get-FileHash C:\My\Locaction\some_file.zip -Algorithm MD5 
 
     # Extracting
-    unzip /My/Locaction/some_file.zip
+    Expand-Archive C:\My\Locaction\some_file.zip -DestinationPath C:\My\Locaction\Unzipedfolder -Verbose
     ```

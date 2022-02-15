@@ -30,7 +30,6 @@ extra:
       link: https://github.com/GenomicsCoreLeuven
       name: GC on GitHub
 
-
 markdown_extensions:
   - attr_list
   - md_in_html
@@ -38,7 +37,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.tabbed:
-      alternate_style: true
+      alternate_style: true 
 
 
 extra_css:
