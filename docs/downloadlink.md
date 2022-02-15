@@ -7,7 +7,6 @@ Given a download link, one can use the tool [curl](https://en.wikipedia.org/wiki
 !!! warning "Warning"
     Always proceed with caution before executing commandlets
 
-
 === "macOS"
 
     ```sh
