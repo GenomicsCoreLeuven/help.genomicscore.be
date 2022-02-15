@@ -5,7 +5,7 @@ Requested datasets can be quite `large`, depending on the type of experiment.
 Given a download link, one can use the tool [curl](https://en.wikipedia.org/wiki/CURL) to download a file through the command line interface instead.
 
 !!! warning "Warning"
-    Always make you understand the commands you execute to avoid unintended behaviour
+    Always ensure you understand the commands you execute to avoid unintended behaviour
 
 === "macOS"
 
