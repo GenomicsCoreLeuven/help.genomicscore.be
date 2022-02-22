@@ -7,10 +7,10 @@ Given a download link, one can use the tool [curl](https://en.wikipedia.org/wiki
 !!! warning "Warning"
     Always ensure you understand the commands you execute to avoid unintended behaviour.
 
-!!! note ""
-    Please replace the values in `curly brackets {}` (also remove the brackets)
-
 ## Example with [curl](https://en.wikipedia.org/wiki/CURL)
+
+!!! info ""
+    Please replace the values in `curly brackets {}` (also remove the brackets)
 
 === "macOS"
 
